@@ -1,0 +1,81 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.container{
+  border: 2px solid black;
+}
+.logo{
+  text-align: center;
+  border: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+.name{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.border-bottom{
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+}
+.slogan{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.bike1,
+.bike2,
+.bike3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.site-info{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.contact-us{
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+.number{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.email{
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-name{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
